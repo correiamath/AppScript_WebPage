@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Teste</title>
+  </head>
+  <body>
+    <button id="enviarBotao">Enviar4</button>
+    <script>
+      // Adicionar um evento de clique ao botão
+      document
+        .getElementById("enviarBotao")
+        .addEventListener("click", function () {
+          google.script.run.alterarCelula_A1();
+        });
+    </script>
+  </body>
+</html>
